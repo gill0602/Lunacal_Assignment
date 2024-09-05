@@ -48,7 +48,7 @@ const Gallery = () => {
           htmlFor="imageUpload"
           className="flex items-center cursor-pointer text-blue-400 hover:text-blue-500"
         >
-          <span className="mr-2">+ Add Image</span>
+          <span className="mr-2">Add Image</span>
           <FaPlus />
         </label>
         <input
