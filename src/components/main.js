@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, User, Image, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Menu, User, ChevronLeft, ChevronRight } from 'lucide-react';
 
 export default function ProfilePage() {
   const [activeTab, setActiveTab] = useState('About Me');
@@ -53,7 +53,7 @@ export default function ProfilePage() {
           <div className="relative">
             <img
               src={images[currentImageIndex]}
-              alt={`Gallery image ${currentImageIndex + 1}`}
+              alt={`Gallery ${currentImageIndex + 1}`}
               className="w-full h-48 object-cover rounded-lg"
             />
             <button
