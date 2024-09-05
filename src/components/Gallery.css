@@ -1,0 +1,8 @@
+.transition-transform {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  img {
+    transition: transform 0.5s ease-in-out;
+  }
+  
